@@ -1,0 +1,10 @@
+--- Deployment Script Started at Mon, Oct 20, 2025 11:09:02 PM ---
+
+Please provide the following deployment details:
+Enter your Git Repository URL:Enter your Github PAT (Personal Access Token):
+Enter the branch name (default:main)Enter your remote server's SSH username (e.g. ubuntu)Enter the path to your SSH key (e.g. ~/.ssh/id_rsa):Enter the port your app runs on inside the container (e.g. 3000):./deploy.sh: line 27: [-z: command not found
+
+Parameters collected. Starting deployment...
+Repo: somaga-dev/git.com
+To: ubuntu@main
+

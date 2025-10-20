@@ -1,0 +1,14 @@
+--- Deployment Script Started at Tue, Oct 21, 2025 12:27:42 AM ---
+
+Please provide the following deployment details:
+Enter your Git Repository URL:Enter your Github PAT (Personal Access Token):
+Enter the branch name (default:main)Enter your remote server's SSH username (e.g. ubuntu)Enter the path to your SSH key (e.g. ~/.ssh/id_rsa):Enter the port your app runs on inside the container (e.g. 3000):./deploy.sh: line 27: [-z: command not found
+
+Parameters collected. Starting deployment...
+Repo: somaga/github.com
+To: ubuntu@main
+
+Cloning repository 'somaga/github.com'...
+./deploy.sh: line 43: [-d: command not found
+Cloning into 'github.com'...
+fatal: unable to access 'https://somaga/github.com/': Could not resolve host: somaga
